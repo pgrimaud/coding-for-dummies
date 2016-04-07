@@ -13,3 +13,10 @@ Reminder for noobs - like me
 git tag -d 1.0.0
 git push origin :refs/tags/1.0.0
 ```
+
+- Force reset to an old commit
+
+```
+git reset --hard dd61ab32^
+git push master -f
+```
