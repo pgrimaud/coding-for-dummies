@@ -20,3 +20,11 @@ git push origin :refs/tags/1.0.0
 git reset --hard dd61ab32^
 git push master -f
 ```
+
+## Unix
+
+- List process (date sorting)
+
+```
+ps -ef --sort=start_time
+```
