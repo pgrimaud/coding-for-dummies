@@ -28,3 +28,9 @@ git push master -f
 ```
 ps -ef --sort=start_time
 ```
+
+- Massive delete (php process)
+
+``` 
+kill `ps -ef | grep php | awk '{print $2}'`
+```
