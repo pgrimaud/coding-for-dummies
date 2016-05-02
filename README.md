@@ -29,6 +29,11 @@ git push master -f
 ps -ef --sort=start_time
 ```
 
+- Edit a user crontab
+
+```
+crontab -u www-data -e
+```
 - Massive delete (php process)
 
 ``` 
