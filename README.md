@@ -39,3 +39,9 @@ crontab -u www-data -e
 ``` 
 kill `ps -ef | grep php | awk '{print $2}'`
 ```
+- Install & use mtr
+
+```
+brew install mtr
+/usr/local/sbin/mtr 8.8.8.8
+```
