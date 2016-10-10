@@ -54,3 +54,9 @@ kill `ps -ef | grep php | awk '{print $2}'`
 brew install mtr
 /usr/local/sbin/mtr 8.8.8.8
 ```
+
+- Copy local key to server
+
+```
+ssh-copy-id -i ~/.ssh/id_dsa.pub user@server
+```
