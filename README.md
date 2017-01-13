@@ -58,5 +58,5 @@ brew install mtr
 - Copy local key to server
 
 ```
-ssh-copy-id -i ~/.ssh/id_dsa.pub user@server
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
 ```
